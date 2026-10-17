@@ -1,0 +1,57 @@
+input[type="checkbox"], button, select, option {
+    cursor: pointer;
+}
+
+.product-form {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    margin: 100px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    background-color: #1aab8a;
+    font-size: 16px;
+    color: white;
+    align-self: center;
+    padding: 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+    width: 33%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group input, select, option, textarea{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.font-group textarea {
+    font-family: Arial, sans-serif;
+}
+
+.form-list {
+    display: flex;
+    gap: 15px;
+}
+
+.form-list-group {
+    display: flex;
+    gap: 15px
+}
