@@ -20,6 +20,10 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
 }
 
+.form-title {
+    align-self: center;
+}
+
 .submit-button {
     background-color: #1aab8a;
     font-size: 16px;
